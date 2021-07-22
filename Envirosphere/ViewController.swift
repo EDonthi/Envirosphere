@@ -9,7 +9,9 @@ import UIKit
 
 
 class ViewController: UIViewController {
-
+    @IBAction func funFactButton(_ sender: UIButton) {
+    }
+    
     @IBOutlet weak var leading: NSLayoutConstraint!
     
     @IBOutlet weak var trailing: NSLayoutConstraint!
