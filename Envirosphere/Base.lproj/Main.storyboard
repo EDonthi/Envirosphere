@@ -121,31 +121,40 @@
             </objects>
             <point key="canvasLocation" x="1582.608695652174" y="90.401785714285708"/>
         </scene>
-        <!--View Controller-->
+        <!--Picture View Controller-->
         <scene sceneID="v7W-ws-xgx">
             <objects>
-                <viewController id="1yC-xc-auY" customClass="ViewController" customModule="Envirosphere" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1yC-xc-auY" customClass="pictureViewController" customModule="Envirosphere" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kLK-0P-XFN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pictures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vx-Up-O2P">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="pictures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Vx-Up-O2P">
                                 <rect key="frame" x="186" y="91" width="62" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dlg-ap-5iq">
-                                <rect key="frame" x="97" y="211" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hG1-dD-YNp">
+                                <rect key="frame" x="0.0" y="120" width="414" height="742"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Y40-A7-T3b"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y40-A7-T3b" firstAttribute="bottom" secondItem="hG1-dD-YNp" secondAttribute="bottom" id="5aK-f2-TJh"/>
+                            <constraint firstItem="Y40-A7-T3b" firstAttribute="trailing" secondItem="hG1-dD-YNp" secondAttribute="trailing" id="Cxe-jy-uno"/>
+                            <constraint firstItem="Y40-A7-T3b" firstAttribute="bottom" secondItem="hG1-dD-YNp" secondAttribute="bottom" id="OI2-A9-VwD"/>
+                            <constraint firstItem="hG1-dD-YNp" firstAttribute="leading" secondItem="Y40-A7-T3b" secondAttribute="leading" id="Og7-vT-Bb8"/>
+                            <constraint firstItem="hG1-dD-YNp" firstAttribute="top" secondItem="8Vx-Up-O2P" secondAttribute="bottom" id="eZx-PG-82D"/>
+                            <constraint firstItem="hG1-dD-YNp" firstAttribute="top" secondItem="8Vx-Up-O2P" secondAttribute="bottom" id="zmK-YX-j2v"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="H5H-c3-Rh7"/>
+                    <connections>
+                        <outlet property="table" destination="hG1-dD-YNp" id="I9p-vf-ydy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ho-D6-8Ls" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
