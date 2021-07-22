@@ -23,61 +23,31 @@ class pictureViewController: UIViewController, UITableViewDelegate, UITableViewD
         
         models.append(FeedPost(numberOfLikes: 100,
                                username: "@ecowarriors",
-                               userImageName: "bedroom",
+                               userImageName: "stockimagepfp",
                                postImageName: "cow",
                                captionLabel:""))
         
         models.append(FeedPost(numberOfLikes: 100,
                                username: "@ecowarriors",
-                               userImageName: "bedroom",
+                               userImageName: "hikerpfp",
                                postImageName: "cow",
                                captionLabel:""))
     
         models.append(FeedPost(numberOfLikes: 100,
                                username: "@ecowarriors",
-                               userImageName: "bedroom",
+                               userImageName: "hikerpfp2",
                                postImageName: "cow",
                                captionLabel:""))
        
         models.append(FeedPost(numberOfLikes: 100,
                                username: "@ecowarriors",
-                               userImageName: "bedroom",
+                               userImageName: "logo",
                                postImageName: "cow",
                                captionLabel:""))
         
         models.append(FeedPost(numberOfLikes: 100,
                                username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
+                               userImageName: "otherlogo",
                                postImageName: "cow",
                                captionLabel:""))
         
