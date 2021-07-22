@@ -13,8 +13,8 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet var userImageView: UIImageView!
     @IBOutlet var postImageView: UIImageView!
     @IBOutlet var usernameLabel: UILabel!
-    @IBOutlet var likesLabel: Int!
-    @IBOutlet var captionLabel: String!
+    @IBOutlet var likesLabel: UILabel!
+    @IBOutlet var captionLabel: UILabel!
 
     static let identifier = "PostTableViewCell"
     
@@ -32,10 +32,10 @@ class PostTableViewCell: UITableViewCell {
     }
     
     func configure(with model: FeedPost) {
-        //self.likesLabel.text = "\(model.numberOfLikes) Likes"
+        self.likesLabel.text = "\(model.numberOfLikes) Likes"
         self.usernameLabel.text = model.username
         self.userImageView.image = UIImage(named: model.userImageName)
         self.postImageView.image = UIImage(named: model.postImageName)
+        self.captionLabel.text="\(model.captionLabel) Caption"
     }
-    
 }

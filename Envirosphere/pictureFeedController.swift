@@ -69,4 +69,5 @@ struct FeedPost {
     let username: String
     let userImageName: String
     let postImageName: String
+    let captionLabel: String
 }
