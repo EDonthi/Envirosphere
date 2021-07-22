@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A852416326A9B62D002ACAA4 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A852416126A9B62D002ACAA4 /* PostTableViewCell.swift */; };
+		A852416426A9B62D002ACAA4 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A852416226A9B62D002ACAA4 /* PostTableViewCell.xib */; };
 		B7CE477826A74A7C00E4930B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE477726A74A7C00E4930B /* AppDelegate.swift */; };
 		B7CE477A26A74A7C00E4930B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE477926A74A7C00E4930B /* SceneDelegate.swift */; };
 		B7CE477C26A74A7C00E4930B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CE477B26A74A7C00E4930B /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A852416126A9B62D002ACAA4 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		A852416226A9B62D002ACAA4 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		B7CE477426A74A7C00E4930B /* Envirosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Envirosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7CE477726A74A7C00E4930B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7CE477926A74A7C00E4930B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				B7CE478526A74A7F00E4930B /* LaunchScreen.storyboard */,
 				B7CE478826A74A7F00E4930B /* Info.plist */,
 				B7CE478026A74A7C00E4930B /* Envirosphere.xcdatamodeld */,
+				A852416126A9B62D002ACAA4 /* PostTableViewCell.swift */,
+				A852416226A9B62D002ACAA4 /* PostTableViewCell.xib */,
 			);
 			path = Envirosphere;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 				B7CE478726A74A7F00E4930B /* LaunchScreen.storyboard in Resources */,
 				B7CE478426A74A7F00E4930B /* Assets.xcassets in Resources */,
 				B7CE477F26A74A7C00E4930B /* Main.storyboard in Resources */,
+				A852416426A9B62D002ACAA4 /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 				B7CE477826A74A7C00E4930B /* AppDelegate.swift in Sources */,
 				B7CE477A26A74A7C00E4930B /* SceneDelegate.swift in Sources */,
 				B7CE478226A74A7C00E4930B /* Envirosphere.xcdatamodeld in Sources */,
+				A852416326A9B62D002ACAA4 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
