@@ -7,16 +7,15 @@
 
 import UIKit
 
-class FactsViewController: UIViewController {
-
+class factsViewController: UIViewController {
+    
     @IBAction func funFactButton(_ sender: UIButton) {
         funFactLabel.text = factModel.getRandomFact ()
     }
     
-    @IBOutlet weak var funFactLabel: UILabel!
+    @IBOutlet var funFactLabel: UILabel!
     let factModel = FactModel ()
-    
-    
+
     
     
     override func viewDidLoad() {
