@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FactsViewController: UIViewController {
 
     @IBAction func funFactButton(_ sender: UIButton) {
         funFactLabel.text = factModel.getRandomFact ()
