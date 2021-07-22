@@ -21,53 +21,36 @@ class pictureViewController: UIViewController, UITableViewDelegate, UITableViewD
         table.delegate = self
         table.dataSource = self
         
-        models.append(FeedPost(numberOfLikes: 100,
+        models.append(FeedPost(numberOfLikes: 4920,
                                username: "@ecowarriors",
                                userImageName: "stockimagepfp",
-                               postImageName: "cow",
-                               captionLabel:""))
+                               postImageName: "loveyourmother",
+                               captionLabel:"Reminder to be kind to mother nature today, tomorrow, and everyday"))
         
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
+        models.append(FeedPost(numberOfLikes: 28,
+                               username: "@stephanielang",
                                userImageName: "hikerpfp",
-                               postImageName: "cow",
-                               captionLabel:""))
+                               postImageName: "canyon",
+                               captionLabel:"Visited this beautiful canyon with Mike!"))
     
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
+        models.append(FeedPost(numberOfLikes: 192,
+                               username: "@wanderingnomad",
                                userImageName: "hikerpfp2",
-                               postImageName: "cow",
-                               captionLabel:""))
+                               postImageName: "dragonfly",
+                               captionLabel:"dragonfly spotted"))
        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "logo",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
+        models.append(FeedPost(numberOfLikes: 2945,
+                               username: "@envirosphere",
                                userImageName: "otherlogo",
-                               postImageName: "cow",
-                               captionLabel:""))
+                               postImageName: "climatejustice",
+                               captionLabel:"What one thing you can do to protect Mother Earth today?"))
         
         models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
-        
-        models.append(FeedPost(numberOfLikes: 100,
-                               username: "@ecowarriors",
-                               userImageName: "bedroom",
-                               postImageName: "cow",
-                               captionLabel:""))
+                               username: "@travellingfoodie",
+                               userImageName: "stockimagepfp",
+                               postImageName: "countryside",
+                               captionLabel:"Travelled through in the Tuscany today"))
+    
     }
     
         func numberOfSections(in tableView: UITableView) -> Int {
