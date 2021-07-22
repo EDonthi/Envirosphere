@@ -31,7 +31,7 @@ class PostTableViewCell: UITableViewCell {
     }
     
     func configure(with model: FeedPost) {
-        //self.likesLabel.text = "\(model.numberOfLikes) Likes"
+        self.likesLabel.text = "\(model.numberOfLikes) Likes"
         self.usernameLabel.text = model.username
         self.userImageView.image = UIImage(named: model.userImageName)
         self.postImageView.image = UIImage(named: model.postImageName)
