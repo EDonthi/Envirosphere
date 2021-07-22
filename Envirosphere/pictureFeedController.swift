@@ -24,7 +24,9 @@ class pictureViewController: UIViewController, UITableViewDelegate, UITableViewD
         models.append(FeedPost(numberOfLikes: 200,
                                username: "@envirosphere",
                                userImageName: "envirospherelogo",
-                               postImageName: "enviroart"))
+                               postImageName: "enviroart",
+                               captionLabel:""))
+        
       
         models.append(FeedPost(numberOfLikes: 100,
                                username: "@ecowarriors",

@@ -13,7 +13,8 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet var userImageView: UIImageView!
     @IBOutlet var postImageView: UIImageView!
     @IBOutlet var usernameLabel: UILabel!
-    @IBOutlet var likesLabel: UILabel!
+    @IBOutlet var likesLabel: Int!
+    @IBOutlet var captionLabel: String!
 
     static let identifier = "PostTableViewCell"
     
