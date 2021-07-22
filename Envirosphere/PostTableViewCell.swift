@@ -1,8 +1,8 @@
 //
 //  PostTableViewCell.swift
-//  Envirosphere
+//  pictureFeed
 //
-//  Created by  Scholar on 7/22/21.
+//  Created by  Scholar on 7/21/21.
 //
 
 import UIKit
@@ -31,7 +31,7 @@ class PostTableViewCell: UITableViewCell {
     }
     
     func configure(with model: FeedPost) {
-        self.likesLabel.text = "\(model.numberOfLikes) Likes"
+        //self.likesLabel.text = "\(model.numberOfLikes) Likes"
         self.usernameLabel.text = model.username
         self.userImageView.image = UIImage(named: model.userImageName)
         self.postImageView.image = UIImage(named: model.postImageName)
