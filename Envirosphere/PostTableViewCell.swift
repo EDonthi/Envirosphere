@@ -36,6 +36,6 @@ class PostTableViewCell: UITableViewCell {
         self.usernameLabel.text = model.username
         self.userImageView.image = UIImage(named: model.userImageName)
         self.postImageView.image = UIImage(named: model.postImageName)
-        self.captionLabel.text="\(model.captionLabel) Caption"
+        self.captionLabel.text="\(model.captionLabel)"
     }
 }
