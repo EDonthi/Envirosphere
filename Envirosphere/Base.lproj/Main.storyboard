@@ -31,7 +31,9 @@
                             <constraint firstItem="LzX-F2-1Et" firstAttribute="bottom" secondItem="wWS-Cr-fN0" secondAttribute="bottom" id="oDS-bo-q0a"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="hzD-2H-eYa"/>
+                    <navigationItem key="navigationItem" id="hzD-2H-eYa">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="mini" id="GNv-Bn-sQ5"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="table" destination="wWS-Cr-fN0" id="Oz8-1i-OhD"/>
                     </connections>
@@ -74,7 +76,9 @@
                         <viewLayoutGuide key="safeArea" id="HRw-zM-Jwl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="IL8-jt-aZy"/>
+                    <navigationItem key="navigationItem" id="IL8-jt-aZy">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="mini" id="jj7-dt-EaZ"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="funFactLabel" destination="SSP-wW-KZD" id="jwv-x2-fVs"/>
                     </connections>
@@ -115,28 +119,51 @@
                                     <segue destination="RmT-DY-wa0" kind="show" id="RFi-0D-QcZ"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDO-i8-4DR">
-                                <rect key="frame" x="-20" y="88" width="414" height="808"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDO-i8-4DR">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mission:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6v-q2-Agc">
-                                        <rect key="frame" x="166" y="426" width="82" height="28"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoo" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-wJ-NQG">
+                                        <rect key="frame" x="-277" y="152" width="884" height="398"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <color key="textColor" red="0.15686274510000001" green="0.2470588235" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3r-pV-A6k">
+                                        <rect key="frame" x="8" y="645" width="398" height="82"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Environmental racism is the disproportionate impact of environmental hazards on people of color. Our mission is to bring awareness to environmental racism &amp; create an activist community through that.</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="0.39607843139999999" green="0.60784313729999995" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <font key="NSFont" size="17" name="PTSans-Narrow"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ael-dD-v1K">
-                                        <rect key="frame" x="41" y="462" width="333" height="110"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="animate" translatesAutoresizingMaskIntoConstraints="NO" id="AUm-k3-Rh0">
+                                        <rect key="frame" x="0.0" y="-15" width="304" height="159"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Bringing awareness to environmental racism &amp; creating an activist community through that.
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" red="0.15686274510000001" green="0.2470588235" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="animate" translatesAutoresizingMaskIntoConstraints="NO" id="UBp-2A-8hj">
+                                        <rect key="frame" x="302" y="0.0" width="274" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hri-mG-R9C">
+                                        <rect key="frame" x="114" y="586" width="187" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="What is our mission?">
+                                                <attributes>
+                                                    <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <font key="NSFont" size="20" name="PTSans-Narrow"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.59999999999999998" green="0.86666666670000003" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -155,6 +182,7 @@
                                 <action selector="menuTapped:" destination="BYZ-38-t0r" id="fDK-83-fgc"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="mini" id="CA0-QA-oRU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="leading" destination="8Bl-vy-q8r" id="dec-VX-Ljf"/>
@@ -184,7 +212,9 @@
                         <viewLayoutGuide key="safeArea" id="aL4-h6-VeL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="OyI-hw-6We"/>
+                    <navigationItem key="navigationItem" id="OyI-hw-6We">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="mini" id="y9L-xP-Fdc"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9lD-Vj-zMq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -231,7 +261,10 @@
         <segue reference="RFi-0D-QcZ"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="animate" width="740" height="380"/>
         <image name="line.horizontal.3.circle" catalog="system" width="128" height="121"/>
+        <image name="logoo" width="778" height="984"/>
+        <image name="mini" width="414" height="416"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
