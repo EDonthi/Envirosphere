@@ -225,7 +225,7 @@
         <!--View Controller-->
         <scene sceneID="GPi-hZ-c7e">
             <objects>
-                <viewController id="p4Y-EE-b7V" sceneMemberID="viewController">
+                <viewController id="p4Y-EE-b7V" customClass="ViewController" customModule="Envirosphere" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ysi-bg-duC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,6 +245,9 @@
                                 <state key="normal" title="About Environmental Justice - EPA">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButton:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="5YD-CY-YLx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uMO-l9-9Ma">
                                 <rect key="frame" x="73" y="219" width="268" height="40"/>
@@ -255,6 +258,9 @@
 </string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonTwo:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="9au-2c-uRK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1Q-dL-hNk">
                                 <rect key="frame" x="73" y="278" width="268" height="30"/>
@@ -263,6 +269,9 @@
                                 <state key="normal" title="What is Environmental Racism?">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonThree:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="D4c-Fa-ELO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1q-5l-LXL">
                                 <rect key="frame" x="73" y="325" width="268" height="30"/>
@@ -271,6 +280,9 @@
                                 <state key="normal" title="History of Environmental Racism">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonFour:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="Qcc-p8-htR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DONATE 🌎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsb-5E-xd8">
                                 <rect key="frame" x="42" y="363" width="99" height="31"/>
@@ -286,6 +298,9 @@
                                 <state key="normal" title="We Act For Environmental Justice">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonFive:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="Vja-6Q-UTc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utp-8R-LaX">
                                 <rect key="frame" x="66" y="453" width="268" height="37"/>
@@ -294,6 +309,9 @@
                                 <state key="normal" title="Indigenous Environmental Network ">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonSix:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="hdY-Fz-qAq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Cv-XQ-pd6">
                                 <rect key="frame" x="66" y="504" width="268" height="35"/>
@@ -302,6 +320,9 @@
                                 <state key="normal" title="Black Millennials For Flint">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonSeven:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="mjS-fD-zwG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E52-zl-tqt">
                                 <rect key="frame" x="66" y="555" width="268" height="30"/>
@@ -310,6 +331,9 @@
                                 <state key="normal" title="Labor For Sustainability">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonEight:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="5p6-TY-U4h"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PETITIONS ✍️" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-ei-yyW">
                                 <rect key="frame" x="42" y="605" width="112" height="31"/>
@@ -325,6 +349,9 @@
                                 <state key="normal" title="Demand Congress For Change">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonNine:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="gRO-rp-v3W"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbd-B8-aoY">
                                 <rect key="frame" x="66" y="695" width="268" height="37"/>
@@ -333,6 +360,9 @@
                                 <state key="normal" title="Fighting For Environmental Justice">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonTen:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="7ja-V9-YAz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwU-hf-Bit">
                                 <rect key="frame" x="66" y="746" width="268" height="40"/>
@@ -341,6 +371,9 @@
                                 <state key="normal" title="Get Involved and Enact Change">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonEleven:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="YOO-PL-nvH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5C-vg-KFc">
                                 <rect key="frame" x="66" y="799" width="268" height="39"/>
@@ -349,6 +382,9 @@
                                 <state key="normal" title="Protect NEPA Petition">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="LinkButtonTwelve:" destination="p4Y-EE-b7V" eventType="touchUpInside" id="6dC-dR-nqz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELPFUL RESOURCES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vlx-DS-isv">
                                 <rect key="frame" x="42" y="101" width="330" height="21"/>
@@ -365,10 +401,24 @@
                     <navigationItem key="navigationItem" id="OyI-hw-6We">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="mini" id="y9L-xP-Fdc"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="button" destination="CZb-EC-o4s" id="WlX-IX-16X"/>
+                        <outlet property="buttonEight" destination="E52-zl-tqt" id="5wn-aU-EE2"/>
+                        <outlet property="buttonEleven" destination="HwU-hf-Bit" id="ZzM-cn-Czg"/>
+                        <outlet property="buttonFive" destination="or4-on-YJp" id="Mxx-Et-YAw"/>
+                        <outlet property="buttonFour" destination="o1q-5l-LXL" id="kXT-3Y-5he"/>
+                        <outlet property="buttonNine" destination="JXN-dy-3eD" id="D0R-ny-G89"/>
+                        <outlet property="buttonSeven" destination="8Cv-XQ-pd6" id="WIX-vT-TnB"/>
+                        <outlet property="buttonSix" destination="Utp-8R-LaX" id="hsR-nd-P64"/>
+                        <outlet property="buttonTen" destination="Cbd-B8-aoY" id="bQo-eV-Ek4"/>
+                        <outlet property="buttonThree" destination="M1Q-dL-hNk" id="BjG-Ue-1iW"/>
+                        <outlet property="buttonTwelve" destination="m5C-vg-KFc" id="4st-AQ-28Z"/>
+                        <outlet property="buttonTwo" destination="uMO-l9-9Ma" id="pmO-vb-cEN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9lD-Vj-zMq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1582.608695652174" y="90.401785714285708"/>
+            <point key="canvasLocation" x="1571" y="94"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nk3-sx-NKM">
